@@ -1,0 +1,125 @@
+body {
+  background-image: url(../images/paw-print-seamless-pattern03.png);
+  background-image: no-repeat;
+  font-family: 'Lobster', cursive;
+  text-align: center; }
+
+a {
+  font-family: courier;
+  color: black;
+  font-size: 1.25em; 
+  text-decoration: none;}
+
+
+h1 {
+  display: block;
+  width: 30%;
+  font-size: 44px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  font-family: courier; 
+  margin-left: 28%;
+  }
+
+img {
+  float: right;
+  height: 290px;
+  margin: 0;
+  padding-bottom: 0;
+  width: 22%;
+  border-radius: 100%; }
+
+img:hover {
+  opacity: .5;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-left: 0px;
+  padding: 0px;
+  font-size: 1.25em;
+  font-family: courier;
+  font-style: black;
+  display: inline-flex; }
+
+li {
+  padding: 20px;
+  margin: 10px; }
+
+
+p {
+  font-size: 24px; 
+  width: 80%;
+  margin-left: 10%;
+  }
+
+
+footer {
+  margin-left: 5%;
+  padding-top: 1%;
+  outline-width: 4px;
+  text-align: left; }
+
+
+@media all and (max-width: 640px) {
+  
+
+
+a:hover, a:active {
+  color: #000b8b;
+  text-decoration: underline;
+}
+
+  h1 {
+    display: block;
+    width: 100%;
+    font-size: 44px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    font-family: courier;
+    margin-left: -4%; 
+    }
+
+  #beagleimage  {
+    display:block;
+    height: 290px;
+    margin: 0;
+    padding-bottom: 0;
+    width: 22%;
+    border-radius: 100%; 
+   }
+
+  img {
+    width: 300px;
+    float: none;
+    margin-left: 110%;
+
+    }
+
+    h2 {
+      font-family: courier;
+      font-size: 2em;
+    }
+
+   
+    
+  .paragraph{
+   outline-style: double;
+   margin-left: 10%;
+    margin-right: 10%;
+ }
+
+  footer {
+    margin-left: 5%;
+    padding-top: 1%;
+    outline-width: 4px;
+    text-align: center;
+    font-family: courier;
+    font-size: 3em; 
+    }
+
+  }
+
+
