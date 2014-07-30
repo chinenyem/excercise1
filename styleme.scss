@@ -6,6 +6,11 @@ body {
 
 .container1 { padding-top: 50%;}
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 h1 { display: block;
 	width: 30%;
 	font-size: 44px;
@@ -22,6 +27,10 @@ img {float: right;
     width:22%;
     border-radius: 100%;
 	 }
+
+img:hover {
+  opacity: .5;
+}
 
  nav ul { 
 
@@ -42,7 +51,9 @@ li {
 
 ol { text-align: left; color: #ED44CB}
 
-p { font-size: 24px}
+p { font-size: 24px;
+	margin-top: -15%;
+	}
 
 footer {
 	margin-left: 5%;
@@ -61,6 +72,11 @@ footer {
 
 
 @media all and (max-width: 640px) {
+
+	a:hover, a:active {
+  color: #000b8b;
+  text-decoration: underline;
+}
 
 
 	.chinenyem1 {margin: 10%;
